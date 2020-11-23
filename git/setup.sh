@@ -6,6 +6,10 @@ echo_green "[INFO] Setup git"
 
 # ignore generated files 
 git config --global core.excludesfile "${HOME}/dotfiles/git/global-ignore"
+# change push strategy
+git config --global push.default current
+# merges when pulling remote
+git config --global pull.rebase false
 
 os=$(check_os)
 # check command exists

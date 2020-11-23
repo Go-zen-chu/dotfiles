@@ -30,7 +30,7 @@ brew install tig
 brew install shellcheck
 # personal dev
 brew install hugo
-brew install qemu
+#brew install qemu
 # cloud tools
 #brew install cloudfoundry/tap/cf-cli
 #brew install bosh-cli
